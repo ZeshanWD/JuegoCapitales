@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:background="@android:color/background_dark"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="70dp"
+        android:textSize="30dp"
+        android:paddingLeft="15dp"
+        android:textColor="@android:color/white"
+        android:text="Tecla la Capital" />
+
+    <ImageView
+        android:id="@+id/imagenMapa"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/espana" />
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:text="España" />
+
+    <EditText
+        android:id="@+id/et_capital"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Introduce la capital"
+        android:text="" />
+
+</LinearLayout>
